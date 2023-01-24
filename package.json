@@ -3,21 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@wdio/cli": "^5.16.10"
+  "scripts": {
+    "test": "",
+    "cucumber": "cucumber-js",
+    "appium": "appium"
   },
-  "devDependencies": {
-    "@wdio/local-runner": "^5.16.10",
-    "@wdio/mocha-framework": "^5.16.10",
-    "@wdio/selenium-standalone-service": "^5.16.10",
-    "@wdio/spec-reporter": "^5.16.5",
-    "@wdio/sync": "^5.16.10",
-    "chai": "^4.2.0"
+  "dependencies": {
+    "@cucumber/cucumber": "^8.10.0",
+    "appium": "^1.22.3",
+    "appium-doctor": "^1.16.2",
+    "wd": "^1.14.0"
   }
 }

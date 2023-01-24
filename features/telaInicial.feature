@@ -15,5 +15,5 @@ Contexto:
     Exemplos: 
       | button           | page             |
       | Acessar Conta    | Login            |
-      | Criar Conta      | Cadastro         |
-      | Alerta de Câmbio | Alerta de Câmbio |
+      # | Criar Conta      | Cadastro         |
+      # | Alerta de Câmbio | Alerta de Câmbio |

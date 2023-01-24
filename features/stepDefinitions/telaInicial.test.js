@@ -2,12 +2,15 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 const capabilities = require('../../helpers/capabilities');
 const wdio = require("webdriverio");
 const po = require('../pageObjects/TelaInicial')
+const { resolve } = require('path')
 
 
 var driver;
 
 Given('que o usuário abra o app', { timeout: 80000 }, async () => {
     driver = await wdio.remote(capabilities);
+    const absolute = resolve('')
+    console.log("CAMINHO: " + absolute)
 });
 
 When('clicar no botão {string}', { timeout: 80000 }, async function (condition) {

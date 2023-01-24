@@ -1,3 +1,5 @@
+const { resolve } = require('path');
+
 module.exports = {
     path: '/wd/hub',
     port: 4723,
@@ -5,7 +7,7 @@ module.exports = {
         'platformName': 'android',
         'appium:deviceName': 'moto g(10)',
         "appium:platformVersion": "11.0",
-        "appium:app": "C:/Users/rafael.souza/Documents/appium-webdriverio/apps/app-tst-debug.apk",
+        "appium:app": `${resolve('')}/apps/app-tst-debug.apk`,
         'appium:automationName': 'Appium'
     }
 };

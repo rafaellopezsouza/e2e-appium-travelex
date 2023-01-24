@@ -1,6 +1,0 @@
-{
-    "platformName": "android",
-    "appium:platformVersion": "11.0",
-    "appium:deviceName": "moto g(10)",
-    "appium:app": "C:/Users/rafael.souza/Documents/appium-webdriverio/app-tst-debug.apk"
-  }

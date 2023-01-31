@@ -39,6 +39,7 @@ Then('a tela de {string} deverá ser exibida', function (page) {
         case 'Cadastro':
             console.log("Pagina de Cadastro");
             driver.takeScreenshot();
+            po.getTextCreateAccoutPage()
             break;
         case 'Alerta de Câmbio':
             console.log("Alerta de Câmbio");
